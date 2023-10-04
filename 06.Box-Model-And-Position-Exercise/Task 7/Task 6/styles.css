@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 50px;
+}
+header {
+    display: flex;
+    position: relative;
+    border-bottom: solid 3px #6e6e6e;
+}
+li {
+    display: inline-block;
+    padding: 0.7em;
+    position: relative;
+    top :23px;
+    left: 120px
+}
+a {
+    color:rgb(0, 170, 0);
+    font-weight: 600;
+    text-decoration: none;
+}
+h2{
+font-weight: 500;
+}
