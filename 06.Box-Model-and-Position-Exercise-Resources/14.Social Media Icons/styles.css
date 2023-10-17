@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+ul{
+    margin: 30px;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+a {
+    border-radius: 50%;
+    background-color: #eeeeee;
+    padding: 0.8em;
+    color: black;
+}
+a.facebook:hover {
+    color: #3b5998;
+}
+
+a.twitter:hover {
+    color: #1da1f2;
+}
+
+a.gplus:hover {
+    color: #db4a39;
+}
+
+a.linkedin:hover {
+    color: #0072b1;
+}
+
+a.instagram:hover {
+    color: #4f5bd5;
+}
