@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box
+}
+
+html {
+    font-family: sans-serif;
+}
+.container {
+   display: flex;
+   flex-direction: row;
+   max-width: 65vw;
+   margin: 3rem 0 0 3rem;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    text-align: center;
+}
+span {
+    border: solid 1px black;
+    padding: 2rem 2rem 6rem 2rem;
+    flex: 1 1 auto;
+}
+.week span:nth-child(1) {
+    flex: 1 1 100%;
+    font-size: 1.4rem;
+}
+.week span:nth-child(7) {
+    flex: 1 1 100%;
+    font-size: 1.4rem;
+}
+.notes {
+    align-items:flex-start;
+}
+.notes span {
+    padding: 0.5rem 1rem 16.75rem 1rem;
+    font-size: 1.4rem;
+}

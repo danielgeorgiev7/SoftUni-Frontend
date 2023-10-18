@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 3em;
+    width: 75vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman",  Times, serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    padding: 0 1rem;
+}
+header ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+p {
+    padding: 0.75rem 0;
+}
