@@ -1,0 +1,10 @@
+body{
+    container: box / inline-size;
+    box-sizing: border-box;
+}
+@container (max-width : 458px){
+    img {
+        display: block;
+        width: 95vw;
+    }
+}
