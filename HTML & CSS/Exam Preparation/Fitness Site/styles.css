@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 3em;
+    background-color: #d01919;
+    color: white;
+}
+
+.header-contacts, .header-location {
+    display: flex;
+}
+header i{
+    display: flex;
+    padding: 0.2em 0.2em 0 0;
+}
+
+.get-started {
+    background: url(image/fitness-main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28vw;
+    color: white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get-started ul {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.get-started li>a, .get-started h1, .get-started-button {
+    text-transform: uppercase;
+}
+.get-started li {
+    list-style-type: none; 
+    padding: 1em 1.5em;
+}
+
+.get-started li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.get-started h1, .get-started p, .get-started-button {
+    display: flex;
+    justify-content: center;
+}
+.get-started h1 {
+    letter-spacing: 0.16em;
+    padding-top: 1.8em;
+    font-size: 3.75em;
+}
+.get-started p{
+    padding-top: 2em;
+    max-width: 52ch;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.button-wrapper {
+    margin-top: 3em;
+    justify-content: center;
+    display: flex;
+}
+.get-started-button {
+    width: fit-content;
+    padding: 0.6em 1.4em;
+    font-size: 1.1em;
+    background-color: #d01919;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.2em;
+}
+
+.welcome-column, .coaches-column {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.welcome-row, .coaches-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 4em;
+}
+
+.welcome-row > *, .coaches-row > *{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coaches-column{
+    background-color: #eee;
+}
+
+.welcome-row div > i {
+    padding-bottom: 0.4em;
+}
+
+.welcome-row div > h3 {
+    color: #d01919;
+    padding-bottom: 1em;
+}
+
+.img-wrapper{
+    padding-bottom: 1em;
+}
+
+.coaches-row div > h3{
+    padding-bottom: 0.5em;
+}
+.coaches-row div > h4 {
+    color: #d01919;
+    padding-bottom: 1em;
+    padding-bottom: 1.25em;
+}
+
+.line {
+    color: #d01919;
+    letter-spacing: -0.4em;
+    font-size: 3em;
+    overflow: hidden;
+    padding: 0 0 0.25em;
+}
+
+.welcome-column h1, .coaches-column h1 {
+    padding-top: 1em;
+    font-size: 2em;
+}
+
+.welcome-column h3, .coaches-column h3 {
+    font-size: 1.2em;
+}
+
+.welcome-column i {
+    font-size: 3.5em;
+}
+
+.welcome-column p, .coaches-column p {
+    max-width: 32ch;
+    text-align: center;
+}
+
+.coaches-column p {
+    color: rgb(153, 153, 153);
+
+}
+
+.coaches-row img{
+    display: block;
+    border-radius: 0.5em;
+}
+
+footer {
+    background-color: #d01919;
+    text-align: center;
+    padding: 0.5em;
+}
