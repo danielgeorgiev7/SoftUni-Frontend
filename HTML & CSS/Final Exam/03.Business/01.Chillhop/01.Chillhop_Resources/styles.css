@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #1881b6;
+    border: 8px solid rgb(31, 31, 31);
+    border-radius: 1.5em;
+    display: flex;
+    width:90%;
+    padding: 3em;
+}
+
+.text-and-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 62.5%
+}
+
+h3 {
+    text-transform: uppercase;
+    color: rgb(31, 31, 31);
+    font-size: 1.75em;
+    padding: 1.25em 0 ;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5em;
+    font-weight: normal;
+}
+
+p {
+    color: rgb(31, 31, 31);
+    font-size: 1.6em;
+    line-height: 2em;
+    text-indent: 3em;
+    padding: 1em  2em 1em 0;
+}
+
+.buttons {
+    font-size: 1.2em;
+    font-weight: 550;
+    width: fit-content;
+    display: flex;
+    padding: 2em;
+    gap: 3em;
+}
+
+.contact-sales-btn {
+    color: white;
+    background-color: #b6416d;
+}
+
+.learn-more-btn {
+    color: rgb(31, 31, 31);
+}
+
+.contact-sales-btn,.learn-more-btn {
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 0.5em;
+    text-decoration: none;
+    padding: 0.7em 1.4em;
+    margin-left: 6em;
+}
+
+.img-wrapper {
+    width: 37.5%;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
