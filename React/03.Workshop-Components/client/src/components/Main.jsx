@@ -8,11 +8,7 @@ function Main() {
       <section className="card users-container">
         <SearchForm />
 
-        <div className="table-wrapper">
-          <UserListTable />
-        </div>
-
-        <button className="btn-add btn">Add new user</button>
+        <UserListTable />
 
         <Pagination />
       </section>
@@ -39,8 +35,7 @@ export default Main;
   /* <!-- No users added yet  --> */
 }
 
-{
-  /* <!-- <div className="table-overlap">
+/* <!-- <div className="table-overlap">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -58,7 +53,6 @@ export default Main;
               </svg>
               <h2>There is no users yet.</h2>
             </div> --> */
-}
 
 {
   /* <!-- No content overlap component  --> */

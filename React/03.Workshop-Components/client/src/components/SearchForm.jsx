@@ -21,6 +21,7 @@ function SearchForm() {
       </h2>
       <div className="search-input-container">
         <input
+          defaultValue=""
           type="text"
           placeholder="Please, select the search criteria"
           name="search"
