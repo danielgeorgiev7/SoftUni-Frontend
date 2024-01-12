@@ -1,2 +1,3 @@
-SoftUni Homeworks from SoftUni course - Frontend (CSS and React)
+SoftUni Homeworks from SoftUni courses HTML & CSS and React
+
 
